@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 
 export default async function allCourses() {
- const courses = getallpo()
   return (
     <div>
         allCourses

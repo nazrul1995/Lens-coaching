@@ -6,8 +6,8 @@ export default function navbar() {
     const links = <>
     <Link className='mr-5' href={'/'}>Home</Link>
     <Link className='mr-5' href={'/courses'}>Courses</Link>
-    <Link className='mr-5' href={'/auth/login'}>Login</Link>
-    <Link className='mr-5' href={'/auth/register'}>Login</Link>
+    <Link className='mr-5' href={'/dashboard/login'}>Login</Link>
+    <Link className='mr-5' href={'/dashboard/register'}>register</Link>
     <Link className='mr-5' href={'/about'}>About</Link>
     </>
 

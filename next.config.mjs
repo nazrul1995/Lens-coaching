@@ -2,6 +2,7 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+   images: { remotePatterns: [{ protocol: 'https', hostname: 'images-cdn.ubuy.co.in' },], }
 };
 
 export default nextConfig;
